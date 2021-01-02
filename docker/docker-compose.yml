@@ -1,7 +1,7 @@
 version: "3"
 services:
   seckill_hyb:
-    image: python:3.9
+    image: python_jd_seckill
     working_dir: /workspace
     volumes:
     - ..:/workspace
