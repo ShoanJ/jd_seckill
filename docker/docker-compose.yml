@@ -9,4 +9,4 @@ services:
       JD_USER: hyb
     command:
       - bash
-      - sh ./bin/pending.sh
+      - ./bin/pending.sh
