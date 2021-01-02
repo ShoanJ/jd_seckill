@@ -1,0 +1,9 @@
+version: "3"
+services:
+  seckill_hyb:
+    image: python
+    working_dir: /workspace
+    volumes:
+    - ..:/workspace
+    environment:
+      JD_USER: hyb
